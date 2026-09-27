@@ -1,5 +1,5 @@
 const Header = () => {
-  return <nav className="bg-amber-400 pt-9.25">
+  return <nav className=" bg-transparent pt-9.25 w-full absolute top-0 left-0">
     <div className="container flex items-center justify-between">
       <div className="logo">
         <a href="#">
@@ -15,7 +15,7 @@ const Header = () => {
           <li><a href="#">Contact</a></li>
         </ul>
 
-        <button className="text-[16px] text-white font-bold px-12.5 py-2.75 border border-white rounded-[3px]">Call Us</button>
+        <button className=" cursor-pointer text-[16px] text-white font-bold px-12.5 py-2.75 border border-white rounded-[3px]">Call Us</button>
       </div>
     </div>
   </nav>;
