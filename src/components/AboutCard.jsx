@@ -1,6 +1,6 @@
 const AboutCard = ({title, decription, children}) => {
   return (
-    <div className=" border border-[rgba(0,0,0,0.03)] pt-5 pl-7.5 pb-14 pr-10.25 duration-300 hover:bg-primary2 group rounded-[10px] cursor-pointer">
+    <div className=" shadow-[10px_10px_20px_0px_rgba(0,0,0,0.02)] border border-[rgba(0,0,0,0.03)] pt-5 pl-7.5 pb-14 pr-10.25 duration-300 hover:bg-primary2 group rounded-[10px] cursor-pointer">
       <div className="icon w-31.5 h-31.5 flex items-center justify-center " >
           {children}
       </div>
@@ -17,3 +17,4 @@ const AboutCard = ({title, decription, children}) => {
 };
 
 export default AboutCard;
+      
