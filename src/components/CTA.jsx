@@ -25,7 +25,7 @@ const CTA = () => {
             className="flex flex-col sm:flex-row items-center gap-4 sm:gap-6 w-full"
           >
             <input 
-              className="bg-[rgba(217,217,217,0.03)] w-full sm:w-80 md:w-96 lg:w-[475px] py-3 px-6.25 border border-white rounded-[5px] placeholder:font-raleway placeholder:font-medium placeholder-[rgba(255,255,255,0.8)] text-white focus:outline-none focus:border-primary transition-colors" 
+              className="bg-[rgba(217,217,217,0.03)] w-full sm:w-80 md:w-96 lg:w-118.75 py-3 px-6.25 border border-white rounded-[5px] placeholder:font-raleway placeholder:font-medium placeholder-[rgba(255,255,255,0.8)] text-white focus:outline-none focus:border-primary transition-colors" 
               type="email" 
               placeholder="Enter your email" 
             />
