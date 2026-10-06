@@ -7,11 +7,11 @@ import BenefitCard from "./BenefitCard"
 
 const Benefit = () => {
   return (
-    <section className="grid grid-cols-2 pb-30">
+    <section className="grid grid-cols-1 md:grid-cols-2 pb-30">
         <div className="benefitBanner">
 
         </div>
-        <div className="grid grid-cols-2">
+        <div className="grid grid-cols-1 md:grid-cols-2">
           <BenefitCard benefitImg={benefitImg1}  heading={"Quality Product"} description={"Our flowers are of the highest quality, carefully selected and sourced from reputable"  }/>
           <BenefitCard benefitImg={benefitImg2}  heading={"Always Fresh"} description={"Our flowers are always fresh, handpicked and delivered promptly for maximum longevity and enjoyment."  }/>
           <BenefitCard benefitImg={benefitImg4}  heading={"Work Smart"} description={"We work smart, using innovative techniques and technology to streamline our processes"  }/>

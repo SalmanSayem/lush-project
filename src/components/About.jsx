@@ -6,7 +6,7 @@ const About = () => {
   return (
     <section className="py-30">
       <div className="container">
-        <div className="flex items-center gap-18 pb-22.5">
+        <div className="flex flex-col xs:flex-row items-center gap-18 pb-22.5">
           <SectionHeadingF
             heading={"We Help choose the most suitable plants for you"}
           />
@@ -19,7 +19,7 @@ const About = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-3 gap-20">
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-20">
           <AboutCard
             title="Indoor Plants"
             decription={

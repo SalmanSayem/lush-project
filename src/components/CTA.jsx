@@ -1,12 +1,11 @@
 const CTA = () => {
   const styles = {
     background: `url('/ctaBG.png') no-repeat center / cover`,
-    padding: "218px 100px"
   };
 
   return (
-    <section style={styles} className="mb-30">
-      <div className="flex gap-6">
+    <section style={styles} className="mb-30 py-20 md:py-54.5 px-10 md:px-25">
+      <div className="flex flex-col xl:flex-row gap-6">
         <div>
             <h1 className="font-lato text-[32px] font-bold text-white">Enter your email address for our mailing Promo or other interesting things</h1>
         </div>

@@ -30,7 +30,7 @@ const Footer = () => {
           </a>
         </div>
         <div>
-          <ul className="text-white font-bold text-[16px] flex justify-center gap-15">
+          <ul className="text-white font-bold text-[16px] flex flex-col md:flex-row items-center justify-center gap-7 md:gap-15">
             <li>
               <a href="#">Home</a>
             </li>
@@ -63,7 +63,7 @@ const Footer = () => {
         />
       </div>
       <div className="bg-black py-2 z-10">
-        <p className="font-bold font-raleway text-[16px] text-white text-center">
+        <p className="font-bold font-raleway text-[12px]  md:text-[16px] text-white text-center">
           Copyright © 2024 Lush. All rights reserved. Dennis Nzioki DNX{" "}
         </p>
       </div>
